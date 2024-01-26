@@ -7,11 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#FFD700',
+        secondary: '#8AF3FF',
+        background: '#1E1E1E',
+        cards: '#2D2D2D',
+        font: '#DCDCDC',
+        fontSecondary: '#929292',
       },
+      backgroundImage: {
+        'heroImg': "url('../app/assets/FingerPrintHeroImg.png')"
+      }
     },
   },
   plugins: [],
