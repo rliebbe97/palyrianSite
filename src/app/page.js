@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className='bg-background bg-center flex-1 flex flex-col justify-center mt-24 pb-10'>
             <div className='flex flex-col lg:flex-row px-11 lg:h-[50vh] lg:items-center'>
-              <h1 className='primarytext mb-6 lg: w-1/2'> Unlock Your Digital Potential with Palyrian </h1>
+              <h1 className='primarytext mb-6 lg:w-1/2'> Unlock Your Digital Potential with Palyrian </h1>
               <div className='lg:w-1/2'>
                 <p className='primarysecondary mb-6'>We specialize in providing cutting-edge Identity Access Management solutions for the government sector, helping you secure your digital infrastructure and streamline operations.</p>
                 <div>
