@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FFD700',
+        primarydark: 'E3BE00',
         secondary: '#8AF3FF',
         background: '#1E1E1E',
         cards: '#2D2D2D',

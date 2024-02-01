@@ -10,9 +10,40 @@
     leading-[2.7rem]
 }
 
+.cardheaders {
+  @apply
+    text-font
+    text-2xl
+    font-bold
+}
+
+.herotext {
+  @apply
+    text-primary
+    text-4xl
+    font-bold
+    leading-[2.7rem]
+}
+
+.cardnumber {
+  @apply
+    text-primary
+    opacity-50
+    text-6xl
+    font-bold
+}
+
+
 .primarysecondary {
   @apply
     text-fontSecondary
+    text-base
+    leading-6
+}
+
+.herosecondary {
+  @apply
+    text-white
     text-base
     leading-6
 }
@@ -25,4 +56,18 @@
     py-3
     rounded-sm
     font-semibold
+}
+
+.glassmorph{
+  @apply
+  h-1/2
+   lg:h-full 
+   bg-gray-500 
+   lg:rounded-md
+  backdrop-filter 
+   backdrop-blur-md
+  bg-opacity-10 
+  border 
+  border-background
+  justify-center
 }

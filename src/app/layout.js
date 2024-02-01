@@ -5,8 +5,9 @@ const roboto = Roboto({ subsets: ['latin'], weight: ["400", "500", "700", "900"]
 
 export const metadata = {
   title: 'Palyrian: ICAM Cybersecurity Consulting',
+  metadataBase: new URL('http://localhost:3000'),
   description: 'Expert ICAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.',
-  keywords: ['ICAM', 'Cybersecurity', 'Palyrian', 'Consulting'],
+  keywords: ['ICAM', 'Cybersecurity', 'Palyrian', 'Consulting', 'Virginia', 'ICAM security solutions','Identity and access management consulting'],
   openGraph: {
     title: 'Palyrian: ICAM Cybersecurity Consulting',
     description: 'Expert ICAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.',
@@ -29,7 +30,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        {children}
+      </body>
     </html>
   )
 }
