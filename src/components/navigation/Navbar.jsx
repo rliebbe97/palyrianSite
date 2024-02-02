@@ -12,7 +12,6 @@ export default function Navbar() {
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
-    console.log("open", isOpen);
   };
 
   return (
@@ -38,7 +37,11 @@ export default function Navbar() {
             {NavLinks.map((item, index) => {
               return (
                 <li key={index}>
-                  <NavLink name={item?.name} href={item?.link} />
+                  <NavLink
+                    name={item?.name}
+                    href={item?.link}
+                    onClick={() => setIsOpen(false)}
+                  />
                 </li>
               );
             })}

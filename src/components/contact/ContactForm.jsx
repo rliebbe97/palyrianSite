@@ -34,7 +34,6 @@ export default function ContactForm() {
 
   const validateField = (fieldName, value) => {
     let errorMessage = "";
-    console.log(fieldName);
 
     switch (fieldName) {
       case "name":

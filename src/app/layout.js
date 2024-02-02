@@ -10,7 +10,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: "Palyrian: ICAM Cybersecurity Consulting",
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://www.palyrian.com/"),
   description:
     "Expert ICAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
   keywords: [

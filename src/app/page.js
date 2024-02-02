@@ -26,8 +26,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-11 lg:h-[50vh] flex flex-col lg:flex-row justify-center items-center text-left">
-        <div className="lg:w-1/2 py-10">
+      <div className="px-11 py-24 min-h-[70vh] lg:h-[50vh] flex flex-col lg:flex-row justify-center items-center text-left">
+        <div className="lg:w-1/2">
           <h1 className="primarytext mb-6">Identity is the Center</h1>
           <p className="primarysecondary mb-6">
             With remote work becoming the global norm, identity security becomes
@@ -39,7 +39,7 @@ export default function Home() {
             Explore our Offerings
           </Link>
         </div>
-        <div className="lg:w-1/2 h-full lg:flex lg:items-center lg:justify-center">
+        <div className="lg:w-1/2 h-full lg:flex lg:items-center lg:justify-center mt-12 lg:py-40">
           <Image src={`/images/KidScreenImg.png`} width={550} height={400} />
         </div>
       </div>
