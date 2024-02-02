@@ -21,7 +21,12 @@ export default function Navbar() {
           href="/"
           className="text-primary flex flex-row justify-center items-center"
         >
-          <Image src={`/images/PalyrianLogo.svg`} height={28} width={28} />
+          <Image
+            src={`/images/PalyrianLogo.svg`}
+            height={28}
+            width={28}
+            alt="Palyrian logo"
+          />
           <span className="ml-5 text-2xl font-bold">Palyrian</span>
         </Link>
         <button
