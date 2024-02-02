@@ -1,5 +1,5 @@
 import LetsChat from "../home/LetsChat";
-import IAM from "./IAM/IAM";
+import IAM from "./iam/IAM";
 
 export default function Services() {
   return (

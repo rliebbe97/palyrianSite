@@ -40,7 +40,12 @@ export default function Home() {
           </Link>
         </div>
         <div className="lg:w-1/2 h-full lg:flex lg:items-center lg:justify-center mt-12 lg:py-40">
-          <Image src={`/images/KidScreenImg.png`} width={550} height={400} />
+          <Image
+            src={`/images/KidScreenImg.png`}
+            width={550}
+            height={400}
+            alt="Identity image"
+          />
         </div>
       </div>
       <Mission />

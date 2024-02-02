@@ -65,3 +65,7 @@
   border-background
   justify-center;
 }
+
+.cls-1 {
+  fill-rule: evenodd;
+}
