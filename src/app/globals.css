@@ -3,64 +3,58 @@
 @tailwind utilities;
 
 .primarytext {
-  @apply
-    text-font
-    text-4xl
+  @apply text-font
+    text-2xl
+    md:text-3xl
+    lg:text-4xl
     font-bold
-    leading-[2.7rem]
+    leading-[2.7rem];
 }
 
 .cardheaders {
-  @apply
-    text-font
+  @apply text-font
     text-2xl
-    font-bold
+    font-bold;
 }
 
 .herotext {
-  @apply
-    text-primary
+  @apply text-primary
     text-4xl
     font-bold
-    leading-[2.7rem]
+    leading-[2.7rem];
 }
 
 .cardnumber {
-  @apply
-    text-primary
+  @apply text-primary
     opacity-50
     text-6xl
-    font-bold
+    font-bold;
 }
 
-
 .primarysecondary {
-  @apply
-    text-fontSecondary
+  @apply text-fontSecondary
     text-base
-    leading-6
+    leading-6;
 }
 
 .herosecondary {
-  @apply
-    text-white
+  @apply text-white
     text-base
-    leading-6
+    leading-6;
 }
 
 .button {
-  @apply
-    bg-primary
+  @apply bg-primary
+  hover:bg-primary/80
     text-base
     px-4
     py-3
     rounded-sm
-    font-semibold
+    font-semibold;
 }
 
-.glassmorph{
-  @apply
-  h-1/2
+.glassmorph {
+  @apply h-1/2
    lg:h-full 
    bg-gray-500 
    lg:rounded-md
@@ -69,5 +63,5 @@
   bg-opacity-10 
   border 
   border-background
-  justify-center
+  justify-center;
 }

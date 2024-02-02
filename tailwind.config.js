@@ -1,25 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#FFD700',
-        primarydark: 'E3BE00',
-        secondary: '#8AF3FF',
-        background: '#1E1E1E',
-        cards: '#2D2D2D',
-        font: '#DCDCDC',
-        fontSecondary: '#929292',
+        primary: "#FFD700",
+        primarydark: "E3BE00",
+        secondary: "#8AF3FF",
+        background: "#0d1116",
+        cards: "#161b22",
+        font: "#DCDCDC",
+        fontSecondary: "#929292",
       },
       backgroundImage: {
-        'heroImg': "url('../app/assets/FingerPrintHeroImg.png')"
-      }
+        heroImg: "url('../app/assets/FingerPrintHeroImg.png')",
+      },
     },
   },
   plugins: [],
-}
+};

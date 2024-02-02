@@ -1,20 +1,14 @@
-"use client"
+"use client";
 
-//handle submit, handle only when information has been met, 
+//handle submit, handle only when information has been met,
 
-import { useState } from "react"
-import ContactForm from "./ContactForm"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+import { useState } from "react";
+import ContactForm from "@/components/contact/ContactForm";
 
-export default function Home() {
+export default function Contact() {
   return (
-    <main className="bg-background items-center">
-        <div className="h-screen">
-          <Navbar/>
-          <ContactForm/>
-        </div>
-        <Footer/>  
-    </main>
-  )
+    <div>
+      <ContactForm />
+    </div>
+  );
 }

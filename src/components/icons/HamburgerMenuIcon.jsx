@@ -1,11 +1,11 @@
-export default function HamburgerMenuIcon() {
+export default function HamburgerMenuIcon({ className }) {
   return (
-        <svg
-      className="w-5 h-5"
+    <svg
+      className={`w-5 h-5 ${className}`}
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
       viewBox="0 0 17 14"
+      fill="currentColor"
     >
       <path
         stroke="#FFD700"
