@@ -18,7 +18,9 @@ export default function IAM() {
 
       <div className="my-16 px-11 grid sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-x-10 md:gap-y-14">
         {IAMServiceData?.map((item, index) => {
-          return <IAMServiceCard key={index} name={item?.name} />;
+          return (
+            <IAMServiceCard key={index} name={item?.name} icon={item?.icon} />
+          );
         })}
       </div>
     </div>
