@@ -8,7 +8,7 @@ export default function About() {
       <PageHeading
         title={"About Us"}
         text={
-          " Welcome to Palyrian, where we innovate within the landscape of Identity, Credential and Access Management (ICAM) space. Established with a vision to revolutionize cybersecurity, our agency brings together a team of seasoned professionals and subject matter experts with a shared commitment to excellence, security, and innovation."
+          " Welcome to Palyrian, where we innovate within the landscape of Identity and Access Management (IAM) space. Established with a vision to revolutionize cybersecurity, our agency brings together a team of seasoned professionals and subject matter experts with a shared commitment to excellence, security, and innovation."
         }
       />
 

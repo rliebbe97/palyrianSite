@@ -7,9 +7,9 @@ export default function Mission() {
       <h1 className="primarytext mb-2">Our Mission</h1>
       <p className="primarysecondary p-3 mb-4">
         At Palyrian, our mission is to empower our clients with innovative,
-        robust Identity, Credential and Access Management (ICAM) solutions,
-        fostering a secure and agile operational landscape. Guided by unwavering
-        commitment to excellence, integrity, and innovation, we strive to:
+        robust Identity and Access Management (IAM) solutions, fostering a
+        secure and agile operational landscape. Guided by unwavering commitment
+        to excellence, integrity, and innovation, we strive to:
       </p>
       <div className="flex flex-wrap justify-center w-full gap-8">
         {MissionData?.map((item, index) => {
