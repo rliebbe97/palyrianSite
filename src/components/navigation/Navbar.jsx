@@ -1,17 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import HamburgerMenuIcon from "../assets/icons/HamburgerMenuIcon";
-import PalyrianLogo from '@/app/assets/PalyrianLogo.svg'
-
-const NavLinks = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "/about" },
-  { name: "Services", link: "/icamoverview" },
-  { name: "Contact", link: "/contact" },
-];
+import { NavLinks } from "./NavlinkData";
+import NavLink from "./Navlink";
+import HamburgerMenuIcon from "../icons/HamburgerMenuIcon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +16,14 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="border-b-2 border-primary p-4 text-white">
+    <nav className="border-b-2 border-primary py-4 px-11 text-white top-0 sticky z-10 bg-background">
       <div className="flex flex-wrap justify-between items-center">
-        <Link href="/" className="">
-          <Image 
-            src={PalyrianLogo}
-            height={28}
-            width={28}
-          />
+        <Link
+          href="/"
+          className="text-primary flex flex-row justify-center items-center"
+        >
+          <Image src={`/images/PalyrianLogo.svg`} height={28} width={28} />
+          <span className="ml-5 text-2xl font-bold">Palyrian</span>
         </Link>
         <button
           type="button"
@@ -43,11 +37,8 @@ export default function Navbar() {
           <ul className="flex flex-col items-center mt-2 md:flex-row md:space-x-8">
             {NavLinks.map((item, index) => {
               return (
-                <li key={index} className="text-lg py-1 hover:text-primary">
-                  <Link href={item?.link} className="">
-                    <span>{item?.name}</span>
-                  </Link>
-                  {/* <div className="bg-white border-white h-[2px]"/> */}
+                <li key={index}>
+                  <NavLink name={item?.name} href={item?.link} />
                 </li>
               );
             })}
