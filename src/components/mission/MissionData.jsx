@@ -1,11 +1,11 @@
 export const MissionData = [
   {
     title: "Safeguard Identities",
-    body: "We are dedicated to ensuring the confidentiality, integrity, and availability of identities within government agencies. Our tailored ICAM solutions provide a robust framework for secure access management.",
+    body: "We are dedicated to ensuring the confidentiality, integrity, and availability of identities within government agencies. Our tailored IAM solutions provide a robust framework for secure access management.",
   },
   {
     title: "Customized Solutions",
-    body: "We believe in the power of customization. By understanding the unique functional and reporting requirements of each agency, we design bespoke ICAM solutions that seamlessly integrate with existing infrastructure, enhancing efficiency and security.",
+    body: "We believe in the power of customization. By understanding the unique functional and reporting requirements of each agency, we design bespoke IAM solutions that seamlessly integrate with existing infrastructure, enhancing efficiency and security.",
   },
   {
     title: "Compliance Assurance",
@@ -13,7 +13,7 @@ export const MissionData = [
   },
   {
     title: "Continuous Innovation",
-    body: " In the ever-evolving realm of ICAM, we embrace innovation as a cornerstone of our mission. By staying at the forefront of technology, we empower agencies to adapt and thrive in an environment of persistent change and emerging threats.",
+    body: " In the ever-evolving realm of IAM, we embrace innovation as a cornerstone of our mission. By staying at the forefront of technology, we empower agencies to adapt and thrive in an environment of persistent change and emerging threats.",
   },
   {
     title: "Strategic Partnerships",

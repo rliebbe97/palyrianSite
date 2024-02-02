@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const PALYRIAN_EMAIL = "Roby.Liebbe@palyrian.com";
+const PALYRIAN_PHONE = "214-906-1893";
 
 function Footer() {
   return (
@@ -23,7 +24,7 @@ function Footer() {
               <span className="ml-2 primarysecondary">{PALYRIAN_EMAIL}</span>
             </a>
             <a
-              href="#"
+              href={`tel:${PALYRIAN_PHONE}`}
               target="_blank"
               className="flex flex-row justify-center items-center"
             >

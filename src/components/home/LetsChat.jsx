@@ -7,8 +7,7 @@ export default function LetsChat() {
         <div className="flex flex-col justify-center items-center">
           <h2 className="primarytext mb-6">Let's chat</h2>
           <p className="primarysecondary mb-6">
-            We'd love to see how we can help your ICAM solutions come to
-            fruition
+            We'd love to see how we can help your IAM solutions come to fruition
           </p>
           <Link href="/contact" className="button">
             Contact Us

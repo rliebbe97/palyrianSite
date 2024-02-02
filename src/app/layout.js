@@ -9,23 +9,23 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Palyrian: ICAM Cybersecurity Consulting",
+  title: "Palyrian: IAM Cybersecurity Consulting",
   metadataBase: new URL("https://www.palyrian.com/"),
   description:
-    "Expert ICAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
+    "Expert IAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
   keywords: [
-    "ICAM",
+    "IAM",
     "Cybersecurity",
     "Palyrian",
     "Consulting",
     "Virginia",
-    "ICAM security solutions",
+    "IAM security solutions",
     "Identity and access management consulting",
   ],
   openGraph: {
-    title: "Palyrian: ICAM Cybersecurity Consulting",
+    title: "Palyrian: IAM Cybersecurity Consulting",
     description:
-      "Expert ICAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
+      "Expert IAM Cybersecurity Consulting: Elevate Your Security Posture with Advanced Identity and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
     siteName: "Palyrian",
     local: "en_US",
     type: "website",
@@ -37,9 +37,9 @@ export const metadata = {
     },
   },
   twitter: {
-    title: "Palyrian: ICAM Cybersecurity Consulting",
+    title: "Palyrian: IAM Cybersecurity Consulting",
     description:
-      "Expert ICAM Cybersecurity Conslting: Elevate Your Security Posture with Advanced Identity, Credential, and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
+      "Expert IAM Cybersecurity Conslting: Elevate Your Security Posture with Advanced Identity and Access Management Solutions. Tailored Strategies, Cutting-Edge Tech, and Proven Expertise to Secure Your Digital Assets.",
   },
 };
 

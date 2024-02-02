@@ -1,4 +1,4 @@
-export const ICAMServiceData = [
+export const IAMServiceData = [
   { name: "Automated Lifecycle Management" },
   { name: "Access Requests" },
   { name: "Application Integration" },
