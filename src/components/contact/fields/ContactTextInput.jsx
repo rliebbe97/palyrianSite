@@ -8,7 +8,7 @@ export default function ContactTextInput({
   className,
 }) {
   return (
-    <div className="sm:col-span-2">
+    <div className="">
       <label className="block text-sm font-medium text-fontSecondary">
         {label}
       </label>
