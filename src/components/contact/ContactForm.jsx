@@ -97,7 +97,7 @@ export default function ContactForm() {
           <div className="mt-12">
             <form
               onSubmit={handleSubmit}
-              className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+              className="grid grid-cols-1 grid-flow-row gap-y-6 sm:gap-x-8"
             >
               <ContactTextInput
                 label={"Name"}
@@ -129,10 +129,7 @@ export default function ContactForm() {
                 rows={4}
               />
 
-              <button
-                className="button col-span-2 mx-auto"
-                disabled={isLoading}
-              >
+              <button className="button mx-auto" disabled={isLoading}>
                 {isLoading && <span>Submiting...</span>}
                 {!isLoading && <span>Send Message</span>}
               </button>
