@@ -10,11 +10,11 @@ function Footer() {
     <footer className="text-white px-11">
       <div className="py-6 lg:py-8">
         <hr className="my-6 border-primary" />
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="flex flex-col-reverse sm:flex-row items-center justify-between">
           <span className="text-sm primarysecondary">
             © {new Date().getFullYear()} Palyrian. All Rights Reserved.
           </span>
-          <div className="flex flex-col sm:flex-row items-start mt-4 sm:justify-center sm:mt-0 sm:space-x-4">
+          <div className="flex flex-col sm:flex-row items-start mb-4 sm:justify-center sm:my-0 sm:space-x-4">
             <a
               href={`mailto:${PALYRIAN_EMAIL}`}
               target="_blank"
