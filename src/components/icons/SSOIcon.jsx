@@ -13,243 +13,243 @@ export default function SSOIcon() {
           style={{ color: "#000000" }}
           d="m 26.091672,31.865596 c -3.2898,0.0478 -5.955,2.76602 -5.955,6.07032 v 24.10937 c 0,3.30429 2.6676,6.01273 5.955,6.06055 a 1,1 0 0 0 1.0157,-0.98633 1,1 0 0 0 -0.9864,-1.01367 c -2.2125,-0.0322 -3.9843,-1.82485 -3.9843,-4.06055 v -24.10937 c 0,-2.23571 1.7742,-4.03817 3.9843,-4.07032 a 1,1 0 0 0 0.9864,-1.01367 1,1 0 0 0 -1.0157,-0.98633 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 73.724572,31.865596 a 1,1 0 0 0 -1.0176,0.98243 1,1 0 0 0 0.9824,1.01757 c 2.223999,0.0403 3.988299,1.84413 3.988299,4.07032 v 24.10937 c 0,2.22618 -1.7618,4.02021 -3.988299,4.06055 a 1,1 0 0 0 -0.9824,1.01758 1,1 0 0 0 1.0176,0.98242 c 3.293499,-0.0597 5.953099,-2.76674 5.953099,-6.06055 v -24.10937 c 0,-3.29382 -2.6572,-6.01061 -5.953099,-6.07032 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 32.773372,72.785526 a 1,1 0 0 0 -0.9863,1.01562 c 0.048,3.28745 2.7562,5.95508 6.0605,5.95508 h 24.1094 c 3.3124,0 6.0225,-2.66763 6.0703,-5.95508 a 1,1 0 0 0 -0.9863,-1.01562 1,1 0 0 0 -1.0137,0.98632 c -0.032,2.21255 -1.8227,3.98438 -4.0703,3.98438 h -24.1094 c -2.2357,0 -4.0284,-1.77183 -4.0605,-3.98438 a 1,1 0 0 0 -1.0137,-0.98632 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 37.847572,20.215206 c -3.3043,0 -6.0128,2.67127 -6.0605,5.9668 a 1,1 0 0 0 0.9863,1.01367 1,1 0 0 0 1.0137,-0.98633 c 0.032,-2.22446 1.8248,-3.99414 4.0605,-3.99414 h 24.1094 c 2.2476,0 4.0381,1.76968 4.0703,3.99414 a 1,1 0 0 0 1.0137,0.98633 1,1 0 0 0 0.9863,-1.01367 c -0.048,-3.29553 -2.7579,-5.9668 -6.0703,-5.9668 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 30.757772,25.193726 c -3.1075,0 -5.6485,2.54099 -5.6485,5.64844 v 38.29101 c 0,3.10745 2.541,5.64844 5.6485,5.64844 h 38.2988 c 3.1074,0 5.6484,-2.54099 5.6484,-5.64844 v -38.29101 c 0,-3.10771 -2.5413,-5.64965 -5.6484,-5.64844 z m 0,2 h 38.2988 c 2.0249,-7.9e-4 3.6465,1.62215 3.6465,3.64844 v 38.29101 c 0,2.02655 -1.6219,3.64844 -3.6485,3.64844 h -38.2988 c -2.0266,0 -3.6485,-1.62189 -3.6485,-3.64844 v -38.29101 c 0,-2.02655 1.6219,-3.64844 3.6485,-3.64844 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 49.912072,13.027706 a 1,1 0 0 0 -1,1 v 7.08399 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 v -7.08399 a 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 49.915972,6.7230255 c -2.2859,0 -4.1602,1.87425 -4.1602,4.1601505 0,2.27352 1.8743,4.14063 4.1602,4.14063 2.2735,0 4.1406,-1.86711 4.1406,-4.14063 0,-2.2859005 -1.8671,-4.1601505 -4.1406,-4.1601505 z m 0,2 c 1.1824,0 2.1406,0.95405 2.1406,2.1601505 0,1.18247 -0.9582,2.14063 -2.1406,2.14063 -1.2061,0 -2.1602,-0.95816 -2.1602,-2.14063 0,-1.2061005 0.9541,-2.1601505 2.1602,-2.1601505 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 35.478472,1.9886455 c -2.2859,0 -4.1602,1.87426 -4.1602,4.16016 0,2.27352 1.8743,4.1425705 4.1602,4.1425705 2.2735,0 4.1425,-1.8690505 4.1425,-4.1425705 0,-2.2859 -1.869,-4.16016 -4.1425,-4.16016 z m 0,2 c 1.1824,0 2.1425,0.95406 2.1425,2.16016 0,1.18247 -0.9601,2.14257 -2.1425,2.14257 -1.2061,0 -2.1602,-0.9601 -2.1602,-2.14257 0,-1.2061 0.9541,-2.16016 2.1602,-2.16016 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 64.333872,1.9886455 c -2.2735,0 -4.1425,1.87426 -4.1425,4.16016 0,2.27352 1.869,4.1425705 4.1425,4.1425705 2.2859,0 4.1602,-1.8690505 4.1602,-4.1425705 0,-2.2859 -1.8743,-4.16016 -4.1602,-4.16016 z m 0,2 c 1.2061,0 2.1602,0.95406 2.1602,2.16016 0,1.18247 -0.9541,2.14257 -2.1602,2.14257 -1.1824,0 -2.1425,-0.9601 -2.1425,-2.14257 0,-1.2061 0.9601,-2.16016 2.1425,-2.16016 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 64.347572,8.2913755 a 1,1 0 0 0 -1,1 v 6.5859405 l -5.5586,4.57031 a 1,1 0 0 0 -0.1367,1.40625 1,1 0 0 0 1.4062,0.13868 l 5.9239,-4.8711 a 1.0001,1.0001 0 0 0 0.3652,-0.77148 V 9.2913755 a 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 35.474572,8.2913755 a 1,1 0 0 0 -1,1 v 7.0586005 a 1.0001,1.0001 0 0 0 0.3652,0.77148 l 5.9102,4.86914 a 1,1 0 0 0 1.4082,-0.13476 1,1 0 0 0 -0.1368,-1.40821 l -5.5468,-4.57031 V 9.2913755 a 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 49.900272,77.865596 a 1,1 0 0 0 -1,1 v 7.08399 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 v -7.08399 a 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 49.896372,84.953486 c -2.2735,0 -4.1406,1.86711 -4.1406,4.14063 0,2.2859 1.8671,4.16016 4.1406,4.16016 2.2859,0 4.1602,-1.87426 4.1602,-4.16016 0,-2.27352 -1.8743,-4.14063 -4.1602,-4.14063 z m 0,2 c 1.2061,0 2.1602,0.95816 2.1602,2.14063 0,1.2061 -0.9541,2.16016 -2.1602,2.16016 -1.1824,0 -2.1406,-0.95406 -2.1406,-2.16016 0,-1.18247 0.9582,-2.14063 2.1406,-2.14063 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 64.333872,89.685916 c -2.2735,0 -4.1425,1.86905 -4.1425,4.14257 0,2.2859 1.869,4.16016 4.1425,4.16016 2.2859,0 4.1602,-1.87426 4.1602,-4.16016 0,-2.27352 -1.8743,-4.14257 -4.1602,-4.14257 z m 0,2 c 1.2061,0 2.1602,0.9601 2.1602,2.14257 0,1.2061 -0.9541,2.16016 -2.1602,2.16016 -1.1824,0 -2.1425,-0.95406 -2.1425,-2.16016 0,-1.18247 0.9601,-2.14257 2.1425,-2.14257 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 35.478472,89.685916 c -2.2859,0 -4.1602,1.86905 -4.1602,4.14257 0,2.2859 1.8743,4.16016 4.1602,4.16016 2.2735,0 4.1425,-1.87426 4.1425,-4.16016 0,-2.27352 -1.869,-4.14257 -4.1425,-4.14257 z m 0,2 c 1.1824,0 2.1425,0.9601 2.1425,2.14257 0,1.2061 -0.9601,2.16016 -2.1425,2.16016 -1.2061,0 -2.1602,-0.95406 -2.1602,-2.16016 0,-1.18247 0.9541,-2.14257 2.1602,-2.14257 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 40.753872,77.984736 -5.9239,4.8711 a 1.0001,1.0001 0 0 0 -0.3652,0.77148 v 7.0586 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 v -6.58594 l 5.5586,-4.57031 a 1,1 0 0 0 0.1367,-1.40625 1,1 0 0 0 -1.4062,-0.13868 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 59.062472,77.986696 a 1,1 0 0 0 -1.4063,0.13476 1,1 0 0 0 0.1348,1.40821 l 5.5468,4.57031 v 6.58594 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 v -7.0586 a 1.0001,1.0001 0 0 0 -0.3652,-0.77148 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 78.783171,48.994506 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 7.0839 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 89.011671,45.838256 c -2.2736,0 -4.1407,1.87426 -4.1407,4.16016 0,2.27352 1.8671,4.14062 4.1407,4.14062 2.2859,0 4.1601,-1.8671 4.1601,-4.14062 0,-2.2859 -1.8742,-4.16016 -4.1601,-4.16016 z m 0,2 c 1.2061,0 2.1601,0.95406 2.1601,2.16016 0,1.18247 -0.954,2.14062 -2.1601,2.14062 -1.1825,0 -2.1407,-0.95815 -2.1407,-2.14062 0,-1.2061 0.9582,-2.16016 2.1407,-2.16016 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 93.745971,31.400756 c -2.2735,0 -4.1425,1.87426 -4.1425,4.16016 0,2.27352 1.869,4.14257 4.1425,4.14257 2.2859,0 4.1602,-1.86905 4.1602,-4.14257 0,-2.2859 -1.8743,-4.16016 -4.1602,-4.16016 z m 0,2 c 1.2061,0 2.1602,0.95406 2.1602,2.16016 0,1.18247 -0.9541,2.14257 -2.1602,2.14257 -1.1824,0 -2.1425,-0.9601 -2.1425,-2.14257 0,-1.2061 0.9601,-2.16016 2.1425,-2.16016 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 93.745971,60.273806 c -2.2735,0 -4.1425,1.86905 -4.1425,4.14257 0,2.2859 1.869,4.16016 4.1425,4.16016 2.2859,0 4.1602,-1.87426 4.1602,-4.16016 0,-2.27352 -1.8743,-4.14257 -4.1602,-4.14257 z m 0,2 c 1.2061,0 2.1602,0.9601 2.1602,2.14257 0,1.2061 -0.9541,2.16016 -2.1602,2.16016 -1.1824,0 -2.1425,-0.95406 -2.1425,-2.16016 0,-1.18247 0.9601,-2.14257 2.1425,-2.14257 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 78.771371,57.512086 a 1,1 0 0 0 -0.7304,0.22265 1,1 0 0 0 -0.1387,1.40625 l 4.8711,5.92383 a 1.0001,1.0001 0 0 0 0.7715,0.36524 h 7.0586 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 h -6.586 l -4.5703,-5.5586 a 1,1 0 0 0 -0.6758,-0.35937 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 83.544871,34.557006 a 1.0001,1.0001 0 0 0 -0.7715,0.36523 l -4.8692,5.91016 a 1,1 0 0 0 0.1348,1.4082 1,1 0 0 0 1.4082,-0.13672 l 4.5703,-5.54687 h 6.586 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 13.945272,48.982786 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 7.0839 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 10.800672,45.838256 c -2.2858997,0 -4.1600997,1.8671 -4.1600997,4.14062 0,2.2859 1.8742,4.16016 4.1600997,4.16016 2.2736,0 4.1407,-1.87426 4.1407,-4.16016 0,-2.27352 -1.8671,-4.14062 -4.1407,-4.14062 z m 0,2 c 1.1825,0 2.1407,0.95815 2.1407,2.14062 0,1.2061 -0.9582,2.16016 -2.1407,2.16016 -1.2060998,0 -2.1600997,-0.95406 -2.1600997,-2.16016 0,-1.18247 0.9539999,-2.14062 2.1600997,-2.14062 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 6.0663723,60.273806 c -2.2859,0 -4.1602,1.86905 -4.1602,4.14257 0,2.2859 1.8743,4.16016 4.1602,4.16016 2.2735,0 4.1424997,-1.87426 4.1424997,-4.16016 0,-2.27352 -1.8689997,-4.14257 -4.1424997,-4.14257 z m 0,2 c 1.1824,0 2.1425,0.9601 2.1425,2.14257 0,1.2061 -0.9601,2.16016 -2.1425,2.16016 -1.2061,0 -2.1602,-0.95406 -2.1602,-2.16016 0,-1.18247 0.9541,-2.14257 2.1602,-2.14257 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 6.0663723,31.400756 c -2.2859,0 -4.1602,1.87426 -4.1602,4.16016 0,2.27352 1.8743,4.14257 4.1602,4.14257 2.2735,0 4.1424997,-1.86905 4.1424997,-4.14257 0,-2.2859 -1.8689997,-4.16016 -4.1424997,-4.16016 z m 0,2 c 1.1824,0 2.1425,0.95406 2.1425,2.16016 0,1.18247 -0.9601,2.14257 -2.1425,2.14257 -1.2061,0 -2.1602,-0.9601 -2.1602,-2.14257 0,-1.2061 0.9541,-2.16016 2.1602,-2.16016 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 9.2088723,34.547236 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 6.5859997 l 4.5703,5.5586 a 1,1 0 0 0 1.4062,0.13672 1,1 0 0 0 0.1387,-1.40625 l -4.8711,-5.92383 a 1.0001,1.0001 0 0 0 -0.7715,-0.36524 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
         <path
           style={{ color: "#000000" }}
           d="m 21.773372,57.736696 a 1,1 0 0 0 -1.4082,0.13672 l -4.5703,5.54687 H 9.2088723 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 7.0585997 a 1.0001,1.0001 0 0 0 0.7715,-0.36523 l 4.8692,-5.91016 a 1,1 0 0 0 -0.1348,-1.4082 z"
           fill="#000000"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
         />
       </g>
       <path
         style={{ color: "#000000" }}
         d="m 49.9971,71.766355 a 1,0.00646362 0 0 1 -1,-0.007 v -0.13331 a 1,0.00646362 0 0 1 1,-0.007 1,0.00646362 0 0 1 1,0.007 v 0.13331 a 1,0.00646362 0 0 1 -1,0.007 z"
         fill="#000000"
-        stroke-width="0.0803966"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeWidth="0.0803966"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit="10"
       />
       <g transform="translate(-11.9015,-13.971)">
         <g transform="translate(-439.60776,-381.13982)">

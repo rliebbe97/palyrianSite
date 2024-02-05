@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <div className="px-11 py-24 min-h-[70vh] lg:h-[50vh] flex flex-col lg:flex-row justify-center items-center text-left">
         <div className="lg:w-1/2">
-          <h1 className="primarytext mb-6">Identity is the Center</h1>
+          <h2 className="primarytext mb-6">Identity is the Center</h2>
           <p className="primarysecondary mb-6">
             With remote work becoming the global norm, identity security becomes
             an increasing must-have to any organization's security posture.

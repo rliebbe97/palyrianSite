@@ -27,7 +27,9 @@ export default function Navbar() {
             width={28}
             alt="Palyrian logo"
           />
-          <span className="ml-5 text-2xl font-bold">Palyrian</span>
+          <span className="invisible sm:visible ml-5 text-2xl font-bold">
+            Palyrian
+          </span>
         </Link>
         <button
           type="button"
