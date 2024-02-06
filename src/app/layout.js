@@ -1,9 +1,14 @@
 import "./globals.css";
-import { Roboto } from "next/font/google";
+import { Roboto, Nunito_Sans } from "next/font/google";
 import Navbar from "@/components/navigation/Navbar";
 import Footer from "@/components/footer/Footer";
 
 const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700", "900"],
+});
+
+const nunito_sans = Nunito_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
 });
@@ -46,7 +51,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-background`}>
+      <body className={`${roboto.className}  bg-background`}>
         <Navbar />
         <main className="relative overflow-hidden min-h-screen">
           {children}

@@ -23,11 +23,11 @@ export default function Navbar() {
         >
           <Image
             src={`/images/PalyrianLogo.svg`}
-            height={28}
-            width={28}
+            height={24}
+            width={24}
             alt="Palyrian logo"
           />
-          <span className="invisible sm:visible ml-5 text-2xl font-bold">
+          <span className="invisible lg:visible ml-2 text-3xl font-bold">
             Palyrian
           </span>
         </Link>

@@ -8,12 +8,12 @@ export default function Home() {
     <div className="">
       <div className="flex flex-col h-screen">
         <div className="bg-heroImg bg-center bg-cover flex-1 flex flex-col justify-center">
-          <div className="flex flex-col px-11 w-full lg:w-1/3 glassmorph">
-            <h1 className="herotext mb-6">
+          <div className="flex flex-col px-11 w-full lg:w-1/3 glassmorph items-center lg:items-start">
+            <h1 className="herotext text-center lg:text-left mb-6">
               {" "}
               Unlock Your Digital Potential with Palyrian{" "}
             </h1>
-            <p className="herosecondary mb-6">
+            <p className="herosecondary text-center lg:text-left mb-6">
               We specialize in providing cutting-edge Identity and Access
               Management solutions helping you secure your digital
               infrastructure and streamline operations.
@@ -26,10 +26,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-11 py-24 min-h-[70vh] lg:h-[50vh] flex flex-col lg:flex-row justify-center items-center text-left">
-        <div className="lg:w-1/2">
-          <h2 className="primarytext mb-6">Identity is the Center</h2>
-          <p className="primarysecondary mb-6">
+      <div className="px-11 pt-24 min-h-[70vh] lg:h-[50vh] flex flex-col lg:flex-row justify-center items-center text-left">
+        <div className="lg:w-1/2 flex flex-col items-center lg:items-start">
+          <h2 className="primarytext mb-2 text-center lg:text-left">Identity is the Center</h2>
+          <p className="primarysecondary mb-5 text-center lg:text-left">
             With remote work becoming the global norm, identity security becomes
             an increasing must-have to any organization's security posture.
             Palyrian is here to help you achieve your organization's polices and

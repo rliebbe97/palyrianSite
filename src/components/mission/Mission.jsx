@@ -4,8 +4,8 @@ import { MissionData } from "./MissionData";
 export default function Mission() {
   return (
     <div className="flex flex-col items-center px-12 py-24 lg:min-h-[25vh] w-full">
-      <h1 className="primarytext mb-2">Our Mission</h1>
-      <p className="primarysecondary p-3 mb-4">
+      <h1 className="primarytext mb-0">Our Mission</h1>
+      <p className="primarysecondary p-3 mb-4 text-center lg:text-left">
         At Palyrian, our mission is to empower our clients with innovative,
         robust Identity and Access Management (IAM) solutions, fostering a
         secure and agile operational landscape. Guided by unwavering commitment

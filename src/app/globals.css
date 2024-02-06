@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.headingtext {
+  @apply text-font
+    text-4xl
+    md:text-3xl
+    lg:text-4xl
+    font-bold
+    leading-[2.7rem];
+}
+
 .primarytext {
   @apply text-font
     text-2xl
