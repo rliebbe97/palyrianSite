@@ -35,7 +35,7 @@ export default function Home() {
             Palyrian is here to help you achieve your organization's polices and
             complex requirements.{" "}
           </p>
-          <Link href="/contact" className="button">
+          <Link href="/services" className="button">
             Explore our Offerings
           </Link>
         </div>

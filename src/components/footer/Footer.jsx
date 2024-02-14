@@ -2,7 +2,7 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
-const PALYRIAN_EMAIL = "Roby.Liebbe@palyrian.com";
+const PALYRIAN_EMAIL = "services@palyrian.com";
 const PALYRIAN_PHONE = "214-906-1893";
 
 function Footer() {
