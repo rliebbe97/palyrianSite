@@ -16,14 +16,14 @@ function Footer() {
           <span className="text-sm primarysecondary">
             © {new Date().getFullYear()} Palyrian. All Rights Reserved.
           </span>
-          <div className="flex flex-col sm:flex-row items-start mb-4 sm:justify-center sm:my-0 sm:space-x-4">
+          <div className="flex flex-row items-start mb-4 sm:justify-center gap-4">
             <a
               href={`mailto:${PALYRIAN_EMAIL}`}
               target="_blank"
               className="flex flex-row justify-center items-center group"
             >
               <MdEmail className="text-primary group-hover:text-white" />
-              <span className="ml-2 primarysecondary group-hover:text-white">
+              <span className="ml-2 primarysecondary group-hover:text-white hidden md:block">
                 {PALYRIAN_EMAIL}
               </span>
             </a>
@@ -33,7 +33,7 @@ function Footer() {
               className="flex flex-row justify-center items-center group"
             >
               <FaPhoneAlt className="text-primary group-hover:text-white" />
-              <span className="ml-2 primarysecondary group-hover:text-white">
+              <span className="ml-2 primarysecondary group-hover:text-white hidden md:block">
                 214-906-1893
               </span>
             </a>
@@ -43,7 +43,7 @@ function Footer() {
               className="flex flex-row justify-center items-center group"
             >
               <LinkedInLogoIcon className="text-primary group-hover:text-white" />
-              <span className="ml-2 primarysecondary group-hover:text-white">
+              <span className="ml-2 primarysecondary group-hover:text-white hidden md:block">
                 LinkedIn
               </span>
             </a>
