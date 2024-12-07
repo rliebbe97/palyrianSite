@@ -2,6 +2,7 @@ import "./globals.css";
 import { Roboto, Nunito_Sans } from "next/font/google";
 import Navbar from "@/components/navigation/Navbar";
 import Footer from "@/components/footer/Footer";
+import VantaBirdsBackground from "./VantaBirds";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -52,11 +53,27 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.className}  bg-background`}>
-        <Navbar />
-        <main className="relative overflow-hidden min-h-screen">
-          {children}
+        <main className="relative overflow-hidden min-h-screen bg-gradient-to-bl from-[#635efa] from-50% via-[#6fc5ef] to-[#5bf3e5]">
+          <VantaBirdsBackground />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              zIndex: 2,
+              color: "#fff",
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="bg-black/50"
+          >
+            {children}
+            <Footer />
+          </div>
         </main>
-        <Footer />
       </body>
     </html>
   );
