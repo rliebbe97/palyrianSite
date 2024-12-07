@@ -1,13 +1,15 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 const PALYRIAN_EMAIL = "services@palyrian.com";
 const PALYRIAN_PHONE = "214-906-1893";
+const PALYRIAN_LINKEDIN = "https://www.linkedin.com/company/palyrian/";
 
 function Footer() {
   return (
-    <footer className="text-white px-11">
+    <footer className="text-white fixed bottom-0 max-w-screen-2xl w-full px-4">
       <div className="py-6 lg:py-8">
         <hr className="my-6 border-primary" />
         <div className="flex flex-col-reverse sm:flex-row items-center justify-between">
@@ -18,18 +20,32 @@ function Footer() {
             <a
               href={`mailto:${PALYRIAN_EMAIL}`}
               target="_blank"
-              className="flex flex-row justify-center items-center"
+              className="flex flex-row justify-center items-center group"
             >
-              <MdEmail className="text-primary hover:text-white" />
-              <span className="ml-2 primarysecondary">{PALYRIAN_EMAIL}</span>
+              <MdEmail className="text-primary group-hover:text-white" />
+              <span className="ml-2 primarysecondary group-hover:text-white">
+                {PALYRIAN_EMAIL}
+              </span>
             </a>
             <a
               href={`tel:${PALYRIAN_PHONE}`}
               target="_blank"
-              className="flex flex-row justify-center items-center"
+              className="flex flex-row justify-center items-center group"
             >
-              <FaPhoneAlt className="text-primary hover:text-white" />
-              <span className="ml-2 primarysecondary">214-906-1893</span>
+              <FaPhoneAlt className="text-primary group-hover:text-white" />
+              <span className="ml-2 primarysecondary group-hover:text-white">
+                214-906-1893
+              </span>
+            </a>
+            <a
+              href={PALYRIAN_LINKEDIN}
+              target="_blank"
+              className="flex flex-row justify-center items-center group"
+            >
+              <LinkedInLogoIcon className="text-primary group-hover:text-white" />
+              <span className="ml-2 primarysecondary group-hover:text-white">
+                LinkedIn
+              </span>
             </a>
           </div>
         </div>
