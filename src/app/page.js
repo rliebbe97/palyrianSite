@@ -9,7 +9,7 @@ export default function Home() {
         height={500}
         alt="Palyrian logo"
       />
-      <div className="flex flex-col justify-center items-center gap-2 text-white">
+      <div className="flex flex-col justify-center items-center gap-2 text-white text-center">
         <span>
           Thank you for your patience as we redefine our brand. Mark your
           calendar for January 2025
